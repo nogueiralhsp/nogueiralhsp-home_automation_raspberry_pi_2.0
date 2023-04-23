@@ -53,8 +53,14 @@ buttonHeight = 1
 # Create Window
 root = tk.Tk()
 root.geometry('400x480')
+
 mainContainerFrame = Frame(
     root
+)
+mainContainerFrame.pack(
+    fill='both',
+    side='top',
+    expand='yes'
 )
 # ***************    # Frames # ***************     
 
